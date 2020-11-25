@@ -1,0 +1,30 @@
+2020-11-12 15:07:34.8303 INFO incepe procedura get all
+2020-11-12 15:07:37.3813 INFO s-a efectuat
+2020-11-12 15:08:07.0699 INFO incepe procedura get all
+2020-11-12 15:32:01.1022 ERROR Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Book
+System.Object -> BookStore_API.Data.Book
+2020-11-12 15:33:03.4651 ERROR Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Book
+System.Object -> BookStore_API.Data.Book
+2020-11-12 15:33:17.9889 ERROR Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Book
+System.Object -> BookStore_API.Data.Book
+2020-11-12 15:36:21.5539 ERROR An error occurred while updating the entries. See the inner exception for details.
+2020-11-12 15:36:29.4609 ERROR An error occurred while updating the entries. See the inner exception for details.
+2020-11-12 15:37:19.7208 INFO incepe procedura get all
+2020-11-12 15:37:20.3056 ERROR Unable to cast object of type 'System.Decimal' to type 'System.Int32'.
+2020-11-12 15:40:42.7692 INFO incepe procedura get all
+2020-11-12 15:40:45.9376 ERROR Unable to cast object of type 'System.Int32' to type 'System.String'.
+2020-11-12 15:41:16.4898 INFO incepe procedura get all
+2020-11-12 15:41:16.7842 ERROR Unable to cast object of type 'System.Int32' to type 'System.String'.
+2020-11-12 15:43:15.9501 INFO incepe procedura get all
+2020-11-12 15:43:19.6529 INFO s-a efectuat
+2020-11-12 15:43:55.4286 INFO incepe procedura get all
+2020-11-12 15:43:55.4856 INFO s-a efectuat

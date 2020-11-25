@@ -1,0 +1,70 @@
+2020-11-11 11:46:24.0332 INFO incepe procedura get all
+2020-11-11 11:46:24.9652 INFO s-a efectuat
+2020-11-11 11:47:54.5678 INFO incepe procedura get all
+2020-11-11 11:47:54.6046 INFO s-a efectuat
+2020-11-11 11:49:05.0492 INFO incepe procedura get all
+2020-11-11 11:49:05.4828 ERROR Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> List`1
+System.Object -> System.Collections.Generic.List`1[[BookStore_API.DTOs.AuthorDTO, BookStore-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2020-11-11 11:49:09.0929 INFO incepe procedura get all
+2020-11-11 11:49:09.2794 ERROR Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> List`1
+System.Object -> System.Collections.Generic.List`1[[BookStore_API.DTOs.AuthorDTO, BookStore-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2020-11-11 11:49:19.5579 INFO incepe procedura get all
+2020-11-11 11:49:19.7050 ERROR Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> List`1
+System.Object -> System.Collections.Generic.List`1[[BookStore_API.DTOs.AuthorDTO, BookStore-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2020-11-11 11:53:30.6545 INFO incepe procedura get all
+2020-11-11 11:53:34.0248 INFO s-a efectuat
+2020-11-11 11:53:59.6292 INFO incepe procedura get all
+2020-11-11 11:54:00.1352 ERROR Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> List`1
+System.Object -> System.Collections.Generic.List`1[[BookStore_API.DTOs.AuthorDTO, BookStore-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2020-11-11 11:54:25.0659 INFO incepe procedura get all
+2020-11-11 11:58:16.4002 ERROR Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> List`1
+System.Object -> System.Collections.Generic.List`1[[BookStore_API.DTOs.AuthorDTO, BookStore-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2020-11-11 12:00:03.6593 INFO incepe procedura get all
+2020-11-11 12:00:08.3235 INFO s-a efectuat
+2020-11-11 12:00:15.0776 INFO incepe procedura get all
+2020-11-11 12:00:15.2062 INFO s-a efectuat
+2020-11-11 12:00:23.5420 INFO incepe procedura get all
+2020-11-11 12:00:23.5863 INFO s-a efectuat
+2020-11-11 12:00:29.5330 INFO incepe procedura get all
+2020-11-11 12:00:29.5803 INFO s-a efectuat
+2020-11-11 12:14:05.3452 INFO incepe procedura get all
+2020-11-11 12:14:12.1677 INFO s-a efectuat
+2020-11-11 12:14:46.3529 INFO incepe procedura get all
+2020-11-11 12:14:47.2118 INFO s-a efectuat
+2020-11-11 15:37:06.1367 INFO incepe procedura get all
+2020-11-11 15:37:07.6984 INFO s-a efectuat
+2020-11-11 15:38:34.2028 INFO incepe procedura get all
+2020-11-11 15:38:34.2744 INFO s-a efectuat
+2020-11-11 15:38:47.3037 INFO incepe procedura get all
+2020-11-11 15:38:47.3266 INFO s-a efectuat
+2020-11-11 15:40:06.4028 INFO incepe procedura get all
+2020-11-11 15:40:06.4543 INFO s-a efectuat
+2020-11-11 15:41:53.1519 INFO incepe procedura get all
+2020-11-11 15:41:53.2956 INFO s-a efectuat
+2020-11-11 15:44:17.7421 INFO incepe procedura get all
+2020-11-11 15:44:17.7917 INFO s-a efectuat
+2020-11-11 15:44:19.7179 INFO incepe procedura get all
+2020-11-11 15:44:19.7381 INFO s-a efectuat
+2020-11-11 15:52:08.3270 INFO incepe procedura get all
+2020-11-11 15:52:09.4822 INFO s-a efectuat
+2020-11-11 15:53:17.2074 INFO incepe procedura get all
+2020-11-11 15:53:17.2438 INFO s-a efectuat
+2020-11-11 15:54:11.7525 INFO incepe procedura get all
+2020-11-11 15:54:11.8477 INFO s-a efectuat
+2020-11-11 16:22:47.7180 INFO incepe procedura get all
+2020-11-11 16:22:48.0681 INFO s-a efectuat

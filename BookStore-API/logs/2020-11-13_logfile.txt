@@ -1,0 +1,15 @@
+2020-11-13 15:46:05.6249 INFO incepe procedura get all
+2020-11-13 15:46:07.6266 INFO s-a efectuat
+2020-11-13 15:48:45.2160 INFO incepe procedura get all
+2020-11-13 15:48:47.2586 INFO s-a efectuat
+2020-11-13 15:49:23.4724 INFO incepe procedura get all
+2020-11-13 15:49:23.7432 INFO s-a efectuat
+2020-11-13 15:50:19.1801 ERROR An error occurred while updating the entries. See the inner exception for details.
+2020-11-13 15:50:56.4340 ERROR An error occurred while updating the entries. See the inner exception for details.
+2020-11-13 15:51:18.7802 ERROR An error occurred while updating the entries. See the inner exception for details.
+2020-11-13 16:03:52.4375 ERROR An error occurred while updating the entries. See the inner exception for details.
+2020-11-13 16:05:38.1631 ERROR An error occurred while updating the entries. See the inner exception for details.
+2020-11-13 16:12:06.8046 INFO incepe procedura get all
+2020-11-13 16:12:11.0012 INFO s-a efectuat
+2020-11-13 16:15:02.1708 INFO incepe procedura get all
+2020-11-13 16:15:02.7434 INFO s-a efectuat
