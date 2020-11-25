@@ -30,6 +30,7 @@ namespace BookStore_UI
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
+           
             services.AddSingleton<WeatherForecastService>();
 
             services.AddHttpClient();

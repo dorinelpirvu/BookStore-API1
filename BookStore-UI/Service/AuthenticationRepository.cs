@@ -30,10 +30,28 @@ namespace BookStore_UI.Service
             HttpResponseMessage response = await clientu.SendAsync(request);
             return response.IsSuccessStatusCode;
             
+        }
 
-           
+        public async Task<bool> Login(LoginModel user)
+        {
+            var request = new HttpRequestMessage(HttpMethod.Post, EndPoints.LoginEndPoint);
 
+            request.Content = new StringContent(JsonConvert.SerializeObject(user), Encoding.UTF8, "application/json");
+            var clientu = _client.CreateClient();
+            HttpResponseMessage response = await clientu.SendAsync(request);
+            if (!response.IsSuccessStatusCode)
+            {
+                return false;
+            }
 
+            var content = await response.Content.ReadAsStringAsync();
+            var token = JsonConvert.DeserializeObject<TokenResponse>(content);
+
+        }
+
+        public async Task  Logout()
+        {
+            throw new NotImplementedException();
         }
     }
 }

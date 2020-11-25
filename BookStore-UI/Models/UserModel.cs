@@ -27,5 +27,17 @@ namespace BookStore_UI.Models
     }
     public class LoginModel
     {
+        [Required]
+        public string Name { get; set; }
+
+        [Required]
+        [DataType(DataType.Password)]
+        [StringLength(50, ErrorMessage = "Dimensiunea trebuie sa fie intre {2} si {1}", MinimumLength = 3)]
+        public string Password { get; set; }
+    }
+
+    public class Logout
+    {
+
     }
 }
