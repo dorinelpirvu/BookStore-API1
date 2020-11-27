@@ -13,6 +13,7 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace BookStore_UI.Service
 {
     public class AuthenticationRepository : IAuthenticationRepository
@@ -55,7 +56,7 @@ namespace BookStore_UI.Service
             }
 
             var content = await response.Content.ReadAsStringAsync();
-            var token = JsonConvert.DeserializeObject<TokenResponse>(content);
+            var token =  JsonConvert.DeserializeObject<TokenResponse>(content);
 
             //store token
             await _localStorage.SetItemAsync("authToken", token.Token);
