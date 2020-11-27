@@ -32,7 +32,6 @@ namespace BookStore_UI.Models
 
         [Required]
         [DataType(DataType.Password)]
-        [StringLength(50, ErrorMessage = "Dimensiunea trebuie sa fie intre {2} si {1}", MinimumLength = 3)]
         public string Password { get; set; }
     }
 
