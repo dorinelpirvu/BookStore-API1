@@ -20,6 +20,9 @@ using BookStore_API.Services;
 using AutoMapper;
 using BookStore_API.Mappings;
 using BookStore_API.DTOs;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace BookStore_API
 {
@@ -59,6 +62,22 @@ options.UseSqlServer(
 
             //adaugat
             services.AddAutoMapper(typeof(Maps));
+
+            //adaugat pt token
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(o => {
+                    o.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuer = true,
+                        ValidateAudience = true,
+                        ValidateLifetime = true,
+                        ValidateIssuerSigningKey = true,
+                        ValidIssuer = Configuration["Jwt:Issuer"],
+                        ValidAudience = Configuration["Jwt:Issuer"],
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Jwt:Key"]))
+
+                    };
+                });
 
             //adaugat pt swagger
             services.AddSwaggerGen(c => { c.SwaggerDoc("v1",

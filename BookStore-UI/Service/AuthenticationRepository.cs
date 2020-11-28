@@ -45,17 +45,21 @@ namespace BookStore_UI.Service
 
         public async Task<bool> Login(LoginModel user)
         {
-            var request = new HttpRequestMessage(HttpMethod.Post, EndPoints.LoginEndPoint);
+            var request = new HttpRequestMessage(HttpMethod.Post
+               , EndPoints.LoginEndPoint);
+            request.Content = new StringContent(JsonConvert.SerializeObject(user)
+                , Encoding.UTF8, "application/json");
 
-            request.Content = new StringContent(JsonConvert.SerializeObject(user), Encoding.UTF8, "application/json");
-            var clientu = _client.CreateClient();
-            HttpResponseMessage response = await clientu.SendAsync(request);
+            var client = _client.CreateClient();
+            HttpResponseMessage response = await client.SendAsync(request);
+
             if (!response.IsSuccessStatusCode)
             {
                 return false;
             }
 
-            var content = await response.Content.ReadAsStringAsync();
+
+            string content = await response.Content.ReadAsStringAsync();
             var token =  JsonConvert.DeserializeObject<TokenResponse>(content);
 
             //store token
@@ -65,7 +69,7 @@ namespace BookStore_UI.Service
 
             await ((ApiAuthenticationStateProvider)_stateProvider).LoggedIn();
 
-            clientu.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", token.Token);
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", token.Token);
             
             return true;
 
