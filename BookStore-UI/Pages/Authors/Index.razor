@@ -1,0 +1,51 @@
+﻿@page "/authors/"
+
+
+@inject IAuthorRepository _authorRepo
+
+
+@if (Model == null)
+{
+    <div class="alert alert alert-dismissible">
+        Se incarca date...
+    </div>
+}
+else
+{
+    <table class=" table table-responsive">
+        <thead>
+            <tr>
+                <th>First name</th>
+                <th>second name</th>
+            </tr>
+        <tbody>
+            @foreach (var author in Model)
+            {
+                <tr>
+                    <td>@author.FirstName </td>
+                    <td>@author.LastName</td>
+                    <button class="btn btn-primary">
+                        <span class="oi-book"></span>
+                    </button>
+                    <button class="btn btn-outline-secondary">
+                        <span class="oi-pencil"></span>
+                    </button>
+                    <button class="btn btn-warning">
+                        <span class="oi-delete"></span>
+                    </button>
+                </tr>
+
+            }
+
+        </tbody>
+        </thead>
+    </table>
+}
+@code {
+    private IList<Author> Model;
+    protected override async Task OnInitializedAsync()
+    {
+        Model = await _authorRepo.Get(EndPoints.AuthorsEndPoint);
+    }
+
+}
