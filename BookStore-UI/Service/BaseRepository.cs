@@ -70,6 +70,8 @@ namespace BookStore_UI.Service
 
 
             var clientu = _client.CreateClient();
+
+            //pune in header pt autentificare pt ca api ul este cu autorizare
             clientu.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", await GetBearerToken());
             HttpResponseMessage response = await clientu.SendAsync(request);
             if (response.StatusCode == System.Net.HttpStatusCode.OK)
@@ -86,6 +88,8 @@ namespace BookStore_UI.Service
             var request = new HttpRequestMessage(HttpMethod.Get, url );
 
             var clientu = _client.CreateClient();
+
+            //pune in header pt autentificare pt ca api ul este cu autorizare
             clientu.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", await GetBearerToken());
             HttpResponseMessage response = await clientu.SendAsync(request);
             if (response.StatusCode == System.Net.HttpStatusCode.OK)
@@ -115,7 +119,7 @@ namespace BookStore_UI.Service
             }
             return false;
         }
-
+        //pt a obtine token si al trmite in header 
         private async Task<string> GetBearerToken()
         {
             return   await _localStorage.GetItemAsync<string>("authToken");

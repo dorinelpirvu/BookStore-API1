@@ -17,6 +17,7 @@ else
             <tr>
                 <th>First name</th>
                 <th>second name</th>
+                <th>Actiune</th>
             </tr>
         <tbody>
             @foreach (var author in Model)
@@ -24,15 +25,16 @@ else
                 <tr>
                     <td>@author.FirstName </td>
                     <td>@author.LastName</td>
-                    <button class="btn btn-primary">
+
+                    <a href ="Authors/view/@author.Id" class="btn btn-primary">
                         <span class="oi-book"></span>
-                    </button>
-                    <button class="btn btn-outline-secondary">
+                    </a>
+                    <a class="btn btn-outline-secondary">
                         <span class="oi-pencil"></span>
-                    </button>
-                    <button class="btn btn-warning">
+                    </a>
+                    <a class="btn btn-warning">
                         <span class="oi-delete"></span>
-                    </button>
+                    </a>
                 </tr>
 
             }
