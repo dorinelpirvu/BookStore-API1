@@ -1,0 +1,65 @@
+﻿@page  "/authors/delete/{id}"
+@attribute [Authorize(Roles = "Administrator")]
+@inject IAuthorRepository _repo
+@inject NavigationManager _navManager
+
+<h3>Esti sigur ca vrei sa stergi?</h3>
+
+<div class="col-md-4">
+    <table class="table table-responsive">
+        <tr>
+            <td>First Name</td>
+            <td>@Model.FirstName</td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td>@Model.LastName</td>
+        </tr>
+        <tr>
+            <td>Biography</td>
+            <td>@Model.Bio</td>
+        </tr>
+    </table>
+    <br />
+    <button @onclick="DeleteAuthor" class="btn btn-primary">
+        <span class="oi oi-pencil"></span>
+        Stergere
+    </button>
+    <button @onclick="BackToList" class="btn btn-outline-secondary">
+        <span class="oi oi-media-skip-backward"></span>
+        Back To List
+    </button>
+
+</div>
+
+
+@code {
+    [Parameter]
+    public string Id { get; set; }
+
+    private Author Model = new Author();
+    private bool isSuccess = true;
+    protected override async Task OnInitializedAsync()
+    {
+        int id = Convert.ToInt32(Id);
+        Model = await _repo.Get(EndPoints.AuthorsEndPoint, id);
+    }
+
+    private async Task DeleteAuthor()
+    {
+        isSuccess = await _repo.Delete(EndPoints.AuthorsEndPoint, Model.Id);
+        if (isSuccess)
+        {
+
+            //_toastService.ShowWarning("Author Updated Successfully", "");
+            BackToList();
+        }
+
+    }
+
+    private void BackToList()
+    {
+        _navManager.NavigateTo("/authors/");
+    }
+
+}

@@ -1,17 +1,19 @@
 ﻿@page "/authors/"
 
 
+@inject NavigationManager _navManager
 @inject IAuthorRepository _authorRepo
 
 
 @if (Model == null)
 {
-    <div class="alert alert alert-dismissible">
-        Se incarca date...
-    </div>
+    <LoadingMessage Mesaj="Asteptati se incarca..." />
 }
 else
 {
+    <a href="Authors/create" class="btn btn-outline-warning">
+        <span class="oi-plus"></span>
+    </a>
     <table class=" table table-responsive">
         <thead>
             <tr>
@@ -19,6 +21,8 @@ else
                 <th>second name</th>
                 <th>Actiune</th>
             </tr>
+        </thead>
+
         <tbody>
             @foreach (var author in Model)
             {
@@ -26,13 +30,13 @@ else
                     <td>@author.FirstName </td>
                     <td>@author.LastName</td>
 
-                    <a href ="Authors/view/@author.Id" class="btn btn-primary">
+                    <a href="Authors/view/@author.Id" class="btn btn-primary">
                         <span class="oi-book"></span>
                     </a>
-                    <a class="btn btn-outline-secondary">
+                    <a href="Authors/edit/@author.Id" class="btn btn-outline-secondary">
                         <span class="oi-pencil"></span>
                     </a>
-                    <a class="btn btn-warning">
+                    <a href="Authors/delete/@author.Id" class="btn btn-outline-warning">
                         <span class="oi-delete"></span>
                     </a>
                 </tr>
@@ -40,9 +44,10 @@ else
             }
 
         </tbody>
-        </thead>
+
     </table>
 }
+
 @code {
     private IList<Author> Model;
     protected override async Task OnInitializedAsync()
