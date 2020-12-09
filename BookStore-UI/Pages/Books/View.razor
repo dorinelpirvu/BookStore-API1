@@ -1,0 +1,90 @@
+﻿@page "/books/view/{Id}"
+@inject IBookRepository _bookRepo
+
+@if (int.Parse(Id)<1|| string.IsNullOrWhiteSpace(Id))
+{
+    <LoadingMessage Mesaj="eroare"></LoadingMessage>
+}
+else if(book==null)
+{
+<LoadingMessage Mesaj="nu exista detaliu"></LoadingMessage>
+}
+else
+{
+    
+    <div class="col-6">
+        <table class="table table-responsive">
+            <tr>
+                <td>
+                    <strong>Titlu</strong>
+                </td>
+                <td>@book.Title</td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Price</strong>
+                </td>
+                <td>@book.Price</td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>ISBN</strong>
+                </td>
+                <td>@book.ISBN</td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Autor</strong>
+                </td>
+
+                <td>
+                    @if (book.Author == null)
+                    {
+                        <span class="text-muted">Nu avem autor</span>
+                    }
+                    else
+                    {
+                        <a href="/authors/view/@book.AuthorId">@book.Author.FirstName @book.Author.LastName</a>
+                    }
+                </td>
+
+            </tr>
+
+        </table>
+
+
+    </div>
+    
+         string calePoza = $"Uploads/{book.ISBN}.jpg";
+
+    <div class="col-4">
+        
+        <img src="@calePoza" class="img-responsive" style="height:300px;width:300px" />
+
+    </div>
+}
+
+<a href="/books/" class="btn btn-outline-secondary"
+   <span class="oi oi-action-redo"></span>
+   Inapoi la lista...
+</a>
+
+
+@code {
+    private Book book =new Book();
+    [Parameter]
+    public string Id { get; set; }
+    
+
+    protected override async Task OnInitializedAsync()
+    {
+
+        var id = Convert.ToInt32(Id);
+
+        book = await _bookRepo.Get(EndPoints.BooksEndPoint,id);
+        
+    }
+
+
+
+}

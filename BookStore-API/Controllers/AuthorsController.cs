@@ -55,7 +55,7 @@ namespace BookStore_API.Controllers
 
             try
             {
-                _logger.LogInfo("incepe procedura get all");
+                _logger.LogInfo("incepe procedura get ");
                 var author = await _authorRepository.FindById(id);
                 if (author == null)
                 {

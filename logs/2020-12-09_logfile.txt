@@ -1,0 +1,267 @@
+2020-12-09 10:19:11.9192 INFO incepe procedura get all
+2020-12-09 10:19:12.4070 INFO s-a efectuat
+2020-12-09 10:19:15.4917 INFO incepe procedura get all
+2020-12-09 10:19:15.5713 INFO s-a efectuat
+2020-12-09 10:19:17.4256 INFO incepe procedura get all
+2020-12-09 10:19:17.4479 INFO s-a efectuat
+2020-12-09 10:21:00.4072 INFO incepe procedura get all
+2020-12-09 10:21:00.8634 INFO s-a efectuat
+2020-12-09 10:21:03.3779 INFO incepe procedura get all
+2020-12-09 10:21:03.4644 INFO s-a efectuat
+2020-12-09 10:28:57.9072 INFO incepe procedura get all
+2020-12-09 10:28:58.3677 INFO s-a efectuat
+2020-12-09 10:29:00.9987 INFO incepe procedura get all
+2020-12-09 10:29:01.0937 INFO s-a efectuat
+2020-12-09 10:30:18.0594 INFO incepe procedura get all
+2020-12-09 10:30:18.5506 INFO s-a efectuat
+2020-12-09 10:30:20.7101 INFO incepe procedura get all
+2020-12-09 10:30:20.7748 INFO s-a efectuat
+2020-12-09 10:31:02.3733 INFO incepe procedura get all
+2020-12-09 10:31:02.8344 INFO s-a efectuat
+2020-12-09 10:31:06.1921 INFO incepe procedura get all
+2020-12-09 10:31:06.2774 INFO s-a efectuat
+2020-12-09 10:31:10.4880 INFO incepe procedura get all
+2020-12-09 10:31:10.5107 INFO s-a efectuat
+2020-12-09 10:31:11.5528 INFO incepe procedura get all
+2020-12-09 10:31:11.5912 INFO s-a efectuat
+2020-12-09 10:31:12.9159 INFO incepe procedura get all
+2020-12-09 10:31:12.9365 INFO s-a efectuat
+2020-12-09 10:31:14.0883 INFO incepe procedura get all
+2020-12-09 10:31:14.1162 INFO s-a efectuat
+2020-12-09 10:31:16.1107 INFO incepe procedura get all
+2020-12-09 10:31:16.1323 INFO s-a efectuat
+2020-12-09 10:31:17.3607 INFO incepe procedura get all
+2020-12-09 10:31:17.3839 INFO s-a efectuat
+2020-12-09 10:31:20.9184 INFO incepe procedura get all
+2020-12-09 10:31:20.9411 INFO s-a efectuat
+2020-12-09 10:31:22.2776 INFO incepe procedura get all
+2020-12-09 10:31:22.3000 INFO s-a efectuat
+2020-12-09 10:31:23.9465 INFO incepe procedura get all
+2020-12-09 10:31:23.9717 INFO s-a efectuat
+2020-12-09 10:31:25.1422 INFO incepe procedura get all
+2020-12-09 10:31:25.1612 INFO s-a efectuat
+2020-12-09 10:31:26.2277 INFO incepe procedura get all
+2020-12-09 10:31:26.2521 INFO s-a efectuat
+2020-12-09 10:34:28.4508 INFO incepe procedura get all
+2020-12-09 10:34:28.9124 INFO s-a efectuat
+2020-12-09 10:34:34.0618 INFO incepe procedura get all
+2020-12-09 10:34:34.1775 INFO s-a efectuat
+2020-12-09 10:34:37.4705 INFO incepe procedura get all
+2020-12-09 10:34:37.4942 INFO s-a efectuat
+2020-12-09 10:34:38.4132 INFO incepe procedura get all
+2020-12-09 10:34:38.4492 INFO s-a efectuat
+2020-12-09 10:34:39.8842 INFO incepe procedura get all
+2020-12-09 10:34:39.9097 INFO s-a efectuat
+2020-12-09 10:34:41.0066 INFO incepe procedura get all
+2020-12-09 10:34:41.0336 INFO s-a efectuat
+2020-12-09 10:35:59.6604 INFO incepe procedura get all
+2020-12-09 10:36:00.1258 INFO s-a efectuat
+2020-12-09 10:36:02.6308 INFO incepe procedura get all
+2020-12-09 10:36:02.6861 INFO s-a efectuat
+2020-12-09 10:36:04.1611 INFO incepe procedura get all
+2020-12-09 10:36:04.1842 INFO s-a efectuat
+2020-12-09 10:36:05.3287 INFO incepe procedura get all
+2020-12-09 10:36:05.3626 INFO s-a efectuat
+2020-12-09 10:36:34.0476 INFO incepe procedura get all
+2020-12-09 10:36:34.4896 INFO s-a efectuat
+2020-12-09 10:36:47.0293 INFO incepe procedura get all
+2020-12-09 10:36:47.1058 INFO s-a efectuat
+2020-12-09 10:36:50.6409 INFO incepe procedura get all
+2020-12-09 10:36:50.6666 INFO s-a efectuat
+2020-12-09 10:36:51.8887 INFO incepe procedura get all
+2020-12-09 10:36:51.9181 INFO s-a efectuat
+2020-12-09 10:36:53.8868 INFO incepe procedura get all
+2020-12-09 10:36:53.9079 INFO s-a efectuat
+2020-12-09 10:36:54.9530 INFO incepe procedura get all
+2020-12-09 10:36:54.9989 INFO s-a efectuat
+2020-12-09 10:36:56.2198 INFO incepe procedura get all
+2020-12-09 10:36:56.2447 INFO s-a efectuat
+2020-12-09 10:38:12.1390 INFO incepe procedura get all
+2020-12-09 10:38:12.5657 INFO s-a efectuat
+2020-12-09 10:38:14.9928 INFO incepe procedura get all
+2020-12-09 10:38:15.0716 INFO s-a efectuat
+2020-12-09 10:38:26.3129 INFO incepe procedura get all
+2020-12-09 10:38:26.3358 INFO s-a efectuat
+2020-12-09 10:38:27.5159 INFO incepe procedura get all
+2020-12-09 10:38:27.5499 INFO s-a efectuat
+2020-12-09 10:39:02.7406 INFO incepe procedura get all
+2020-12-09 10:39:03.1873 INFO s-a efectuat
+2020-12-09 10:39:06.0675 INFO incepe procedura get all
+2020-12-09 10:39:06.1553 INFO s-a efectuat
+2020-12-09 10:39:07.3213 INFO incepe procedura get all
+2020-12-09 10:39:07.3516 INFO s-a efectuat
+2020-12-09 10:39:08.2337 INFO incepe procedura get all
+2020-12-09 10:39:08.2663 INFO s-a efectuat
+2020-12-09 10:39:09.4230 INFO incepe procedura get all
+2020-12-09 10:39:09.4499 INFO s-a efectuat
+2020-12-09 10:39:10.5836 INFO incepe procedura get all
+2020-12-09 10:39:10.6065 INFO s-a efectuat
+2020-12-09 10:40:27.4946 INFO incepe procedura get all
+2020-12-09 10:40:27.9416 INFO s-a efectuat
+2020-12-09 10:40:30.4140 INFO incepe procedura get all
+2020-12-09 10:40:30.4728 INFO s-a efectuat
+2020-12-09 10:40:31.6675 INFO incepe procedura get all
+2020-12-09 10:40:31.6926 INFO s-a efectuat
+2020-12-09 10:40:32.4791 INFO incepe procedura get all
+2020-12-09 10:40:32.5135 INFO s-a efectuat
+2020-12-09 10:40:33.7340 INFO incepe procedura get all
+2020-12-09 10:40:33.7654 INFO s-a efectuat
+2020-12-09 11:33:04.7759 INFO incepe procedura get all
+2020-12-09 11:33:05.2298 INFO s-a efectuat
+2020-12-09 11:33:08.0996 INFO incepe procedura get all
+2020-12-09 11:33:08.1793 INFO s-a efectuat
+2020-12-09 11:33:09.4331 INFO incepe procedura get all
+2020-12-09 11:33:09.4573 INFO s-a efectuat
+2020-12-09 11:33:39.4382 INFO incepe procedura get all
+2020-12-09 11:33:39.9038 INFO s-a efectuat
+2020-12-09 11:37:32.2284 INFO incepe procedura get all
+2020-12-09 11:37:32.6117 INFO s-a efectuat
+2020-12-09 11:37:37.9125 INFO incepe procedura get all
+2020-12-09 11:37:37.9935 INFO s-a efectuat
+2020-12-09 11:37:44.3119 INFO incepe procedura get all
+2020-12-09 11:37:44.3375 INFO s-a efectuat
+2020-12-09 11:37:49.9808 INFO incepe procedura get all
+2020-12-09 11:37:50.0032 INFO s-a efectuat
+2020-12-09 12:00:01.0417 INFO incepe procedura get all
+2020-12-09 12:00:01.4667 INFO s-a efectuat
+2020-12-09 12:03:16.1332 INFO incepe procedura get all
+2020-12-09 12:03:16.5719 INFO s-a efectuat
+2020-12-09 12:03:18.3857 INFO incepe procedura get all
+2020-12-09 12:03:18.4678 INFO s-a efectuat
+2020-12-09 12:03:20.0375 INFO incepe procedura get all
+2020-12-09 12:03:20.0616 INFO s-a efectuat
+2020-12-09 12:03:22.6383 INFO incepe procedura get all
+2020-12-09 12:03:22.6689 INFO s-a efectuat
+2020-12-09 12:03:23.8233 INFO incepe procedura get all
+2020-12-09 12:03:23.8385 INFO s-a efectuat
+2020-12-09 12:04:36.8280 INFO incepe procedura get all
+2020-12-09 12:04:37.2727 INFO s-a efectuat
+2020-12-09 12:19:32.0414 INFO incepe procedura get all
+2020-12-09 12:19:32.4845 INFO s-a efectuat
+2020-12-09 15:08:55.0185 INFO incepe procedura get all
+2020-12-09 15:08:55.4772 INFO s-a efectuat
+2020-12-09 15:08:57.6261 INFO incepe procedura get all
+2020-12-09 15:08:57.6983 INFO s-a efectuat
+2020-12-09 15:08:59.3431 INFO incepe procedura get all
+2020-12-09 15:08:59.3631 INFO s-a efectuat
+2020-12-09 15:13:29.8532 INFO incepe procedura get all
+2020-12-09 15:13:30.2536 INFO s-a efectuat
+2020-12-09 15:13:39.2048 INFO incepe procedura get all
+2020-12-09 15:13:39.2244 INFO s-a efectuat
+2020-12-09 15:13:56.3873 INFO incepe procedura get all
+2020-12-09 15:13:56.4071 INFO s-a efectuat
+2020-12-09 15:14:09.0579 INFO incepe procedura get all
+2020-12-09 15:14:09.1454 INFO s-a efectuat
+2020-12-09 15:15:08.8223 INFO incepe procedura get all
+2020-12-09 15:15:09.2054 INFO s-a efectuat
+2020-12-09 15:16:18.3985 INFO incepe procedura get all
+2020-12-09 15:16:18.8958 INFO s-a efectuat
+2020-12-09 15:17:43.6131 ERROR An error occurred while updating the entries. See the inner exception for details.
+2020-12-09 15:23:59.3205 INFO incepe procedura get all
+2020-12-09 15:23:59.7976 INFO s-a efectuat
+2020-12-09 15:24:21.2860 INFO incepe procedura get all
+2020-12-09 15:24:21.3550 INFO s-a efectuat
+2020-12-09 15:24:30.6239 INFO incepe procedura get all
+2020-12-09 15:24:30.6482 INFO s-a efectuat
+2020-12-09 15:30:19.6276 INFO incepe procedura get all
+2020-12-09 15:30:20.0887 INFO s-a efectuat
+2020-12-09 15:33:15.2720 INFO incepe procedura get all
+2020-12-09 15:33:15.7360 INFO s-a efectuat
+2020-12-09 15:33:18.9368 INFO incepe procedura get all
+2020-12-09 15:33:19.0561 INFO s-a efectuat
+2020-12-09 15:34:25.7313 INFO incepe procedura get all
+2020-12-09 15:34:25.7497 INFO s-a efectuat
+2020-12-09 15:34:30.8288 INFO incepe procedura get all
+2020-12-09 15:34:30.8703 INFO s-a efectuat
+2020-12-09 15:34:36.6055 INFO incepe procedura get all
+2020-12-09 15:34:36.6445 INFO s-a efectuat
+2020-12-09 16:05:33.6875 INFO incepe procedura get all
+2020-12-09 16:05:34.1966 INFO s-a efectuat
+2020-12-09 16:05:36.8862 INFO incepe procedura get all
+2020-12-09 16:05:36.9739 INFO s-a efectuat
+2020-12-09 16:08:54.1939 INFO incepe procedura get all
+2020-12-09 16:08:54.6613 INFO s-a efectuat
+2020-12-09 16:08:57.2707 INFO incepe procedura get all
+2020-12-09 16:08:57.3913 INFO s-a efectuat
+2020-12-09 16:09:48.0794 INFO incepe procedura get all
+2020-12-09 16:09:48.1164 INFO s-a efectuat
+2020-12-09 16:09:53.6553 INFO incepe procedura get all
+2020-12-09 16:09:53.6998 INFO s-a efectuat
+2020-12-09 16:10:03.7616 INFO incepe procedura get all
+2020-12-09 16:10:03.7972 INFO s-a efectuat
+2020-12-09 16:10:58.5415 INFO incepe procedura get all
+2020-12-09 16:10:58.9892 INFO s-a efectuat
+2020-12-09 16:11:01.4545 INFO incepe procedura get all
+2020-12-09 16:11:01.5865 INFO s-a efectuat
+2020-12-09 16:13:37.2036 INFO incepe procedura get all
+2020-12-09 16:13:37.6986 INFO s-a efectuat
+2020-12-09 16:13:43.4716 INFO incepe procedura get all
+2020-12-09 16:13:43.5539 INFO s-a efectuat
+2020-12-09 16:13:47.1436 INFO incepe procedura get all
+2020-12-09 16:13:47.1763 INFO s-a efectuat
+2020-12-09 16:13:48.6460 INFO incepe procedura get all
+2020-12-09 16:13:48.6785 INFO s-a efectuat
+2020-12-09 16:13:51.0281 INFO incepe procedura get all
+2020-12-09 16:13:51.0561 INFO s-a efectuat
+2020-12-09 16:13:52.2880 INFO incepe procedura get all
+2020-12-09 16:13:52.3111 INFO s-a efectuat
+2020-12-09 16:13:53.7360 INFO incepe procedura get all
+2020-12-09 16:13:53.7612 INFO s-a efectuat
+2020-12-09 16:13:55.5231 INFO incepe procedura get all
+2020-12-09 16:13:55.5502 INFO s-a efectuat
+2020-12-09 16:13:56.5122 INFO incepe procedura get all
+2020-12-09 16:13:56.5361 INFO s-a efectuat
+2020-12-09 16:13:58.5622 INFO incepe procedura get all
+2020-12-09 16:13:58.5849 INFO s-a efectuat
+2020-12-09 16:14:00.0156 INFO incepe procedura get all
+2020-12-09 16:14:00.0404 INFO s-a efectuat
+2020-12-09 17:43:50.5743 INFO incepe procedura get all
+2020-12-09 17:43:50.9052 INFO s-a efectuat
+2020-12-09 17:43:53.5025 INFO incepe procedura get all
+2020-12-09 17:43:53.5856 INFO s-a efectuat
+2020-12-09 17:44:35.7450 INFO incepe procedura get all
+2020-12-09 17:44:35.7736 INFO s-a efectuat
+2020-12-09 17:44:47.8222 INFO incepe procedura get all
+2020-12-09 17:44:47.8672 INFO s-a efectuat
+2020-12-09 17:44:50.7422 INFO incepe procedura get all
+2020-12-09 17:44:50.7958 INFO s-a efectuat
+2020-12-09 17:45:49.3153 INFO incepe procedura get all
+2020-12-09 17:45:49.7985 INFO s-a efectuat
+2020-12-09 17:45:53.2928 INFO incepe procedura get all
+2020-12-09 17:45:53.3855 INFO s-a efectuat
+2020-12-09 17:45:55.4858 INFO incepe procedura get all
+2020-12-09 17:45:55.5449 INFO s-a efectuat
+2020-12-09 17:45:57.2473 INFO incepe procedura get all
+2020-12-09 17:45:57.2850 INFO s-a efectuat
+2020-12-09 17:46:00.2404 INFO incepe procedura get all
+2020-12-09 17:46:00.2616 INFO s-a efectuat
+2020-12-09 17:46:03.1288 INFO incepe procedura get all
+2020-12-09 17:46:03.1599 INFO s-a efectuat
+2020-12-09 17:46:04.5067 INFO incepe procedura get all
+2020-12-09 17:46:04.5287 INFO s-a efectuat
+2020-12-09 17:46:05.3641 INFO incepe procedura get all
+2020-12-09 17:46:05.3836 INFO s-a efectuat
+2020-12-09 17:46:06.3365 INFO incepe procedura get all
+2020-12-09 17:46:06.3607 INFO s-a efectuat
+2020-12-09 17:46:07.6993 INFO incepe procedura get all
+2020-12-09 17:46:07.7235 INFO s-a efectuat
+2020-12-09 17:46:08.6482 INFO incepe procedura get all
+2020-12-09 17:46:08.6782 INFO s-a efectuat
+2020-12-09 18:04:47.6851 INFO incepe procedura get all
+2020-12-09 18:04:48.1458 INFO s-a efectuat
+2020-12-09 18:04:54.9412 INFO incepe procedura get all
+2020-12-09 18:04:55.0192 INFO s-a efectuat
+2020-12-09 18:04:56.2666 INFO incepe procedura get all
+2020-12-09 18:04:56.2920 INFO s-a efectuat
+2020-12-09 18:04:58.8965 INFO incepe procedura get all
+2020-12-09 18:04:58.9701 INFO s-a efectuat
+2020-12-09 18:05:23.2519 INFO incepe procedura get all
+2020-12-09 18:05:23.2806 INFO s-a efectuat
+2020-12-09 18:05:31.7945 INFO incepe procedura get all
+2020-12-09 18:05:31.8213 INFO s-a efectuat
+2020-12-09 18:05:33.5384 INFO incepe procedura get all
+2020-12-09 18:05:33.5629 INFO s-a efectuat
+2020-12-09 18:15:52.7733 INFO incepe procedura get all
+2020-12-09 18:15:53.1658 INFO s-a efectuat
+2020-12-09 18:19:29.7252 INFO incepe procedura get all
+2020-12-09 18:19:30.1931 INFO s-a efectuat

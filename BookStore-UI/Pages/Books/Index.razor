@@ -1,0 +1,73 @@
+﻿
+@page "/books/"
+
+
+@inject NavigationManager _navManager
+@inject IBookRepository _bookRepo
+
+
+@if (Model == null)
+{
+    <LoadingMessage Mesaj="Asteptati se incarca..." />
+}
+else
+{
+    <a href="Books/create" class="btn btn-primary">
+        <span class="oi oi-plus"></span>
+    </a>
+    <table class=" table table-responsive">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Title</th>
+                <th>Autor</th>
+                <th>Pret</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var book in Model)
+            {
+                calePoza = $"Uploads/{book.ISBN}.jpg";
+            <tr>
+               
+                <td>
+                    
+                    <img src="@calePoza" class="img-thumbnail" style="height:100px;width:100px" />
+                </td>
+                <td>@book.Title</td>
+                <td>@book.Author.FirstName @book.Author.LastName</td>
+                <td>@book.Price</td>
+                <td></td>
+
+                <a href="Books/view/@book.Id" class="btn btn-primary">
+                    <span class="oi oi-book"></span>
+                </a>
+                <a href="Books/edit/@book.Id" class="btn btn-outline-secondary">
+                    <span class="oi oi-pencil"></span>
+                </a>
+                <a href="Books/delete/@book.Id" class="btn btn-outline-warning">
+                    <span class="oi oi-delete"></span>
+                </a>
+            </tr>
+
+            }
+
+        </tbody>
+
+    </table>
+}
+
+@code {
+    string calePoza = null;
+    private IList<Book> Model;
+    protected override async Task OnInitializedAsync()
+    {
+        Model = await _bookRepo.Get(EndPoints.BooksEndPoint);
+    }
+
+}
+
+
+
+
