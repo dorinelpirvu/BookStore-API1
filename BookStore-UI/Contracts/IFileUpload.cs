@@ -11,5 +11,6 @@ namespace BookStore_UI.Contracts
     {
 
         public Task Uploadfile(IFileListEntry file,MemoryStream msFile, string picName);
+        public void RemoveFile(string picName);
     }
 }

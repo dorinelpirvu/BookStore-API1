@@ -1,0 +1,22 @@
+2020-12-11 07:08:38.9936 INFO incepe procedura get all
+2020-12-11 07:08:39.1584 INFO s-a efectuat
+2020-12-11 07:08:42.5104 INFO incepe procedura get all
+2020-12-11 07:08:42.5373 INFO s-a efectuat
+2020-12-11 07:08:51.7571 INFO incepe procedura get all
+2020-12-11 07:08:51.7737 INFO s-a efectuat
+2020-12-11 07:08:53.7675 INFO incepe procedura get all
+2020-12-11 07:08:53.7842 INFO s-a efectuat
+2020-12-11 07:09:01.3557 INFO incepe procedura get all
+2020-12-11 07:09:01.3686 INFO s-a efectuat
+2020-12-11 07:09:04.6653 INFO incepe procedura get all
+2020-12-11 07:09:04.6814 INFO s-a efectuat
+2020-12-11 07:09:15.2177 INFO incepe procedura get all
+2020-12-11 07:09:15.2332 INFO s-a efectuat
+2020-12-11 07:09:20.2745 INFO incepe procedura get all
+2020-12-11 07:09:20.2920 INFO s-a efectuat
+2020-12-11 07:09:22.8808 INFO incepe procedura get all
+2020-12-11 07:09:22.8937 INFO s-a efectuat
+2020-12-11 07:09:25.6740 INFO incepe procedura get all
+2020-12-11 07:09:25.6913 INFO s-a efectuat
+2020-12-11 07:09:27.6202 INFO incepe procedura get all
+2020-12-11 07:09:27.6202 INFO s-a efectuat
