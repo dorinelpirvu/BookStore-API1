@@ -4,10 +4,11 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UserSecretsId>aspnet-BookStore_API-283A788D-98E4-4F6A-BB58-B8FF8B05AC7E</UserSecretsId>
     <RootNamespace>BookStore_API</RootNamespace>
+	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>D:\BookStore-API\BookStore-API.xml</DocumentationFile>
+    <DocumentationFile>bin\$(Configuration)\BookStore-API.xml</DocumentationFile>
     <NoWarn>1701;1702;1591</NoWarn>
   </PropertyGroup>
 
