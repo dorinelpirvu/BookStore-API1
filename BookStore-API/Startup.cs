@@ -129,7 +129,8 @@ options.UseSqlServer(
             });
             //adaugat
             app.UseCors("CorsPolicy");
-            SeedData.Seed(userManager, roleManager).Wait();
+            //adauga la pornire userii
+            //SeedData.Seed(userManager, roleManager).Wait();
            
                 
                 app.UseHttpsRedirection();

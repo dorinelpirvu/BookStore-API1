@@ -34,6 +34,15 @@
             <InputText Id="confirmpassword" type="password" class="form-control" @bind-Value="Model.ConfirmPassword" />
             <ValidationMessage For="@(() => Model.ConfirmPassword)" />
         </div>
+        <div class="form-group">
+            <label for="Rol">Rol</label>
+            <select @bind="Model.Rol" class="form-control" id="rol">
+                <option value="">--Selectare autor--</option>
+                
+                        <option value="Administrator">administrator</option>
+                        <option value="Customer">customer</option>
+            </select>
+        </div>
         <button type="submit" class="btn btn-primary btn-block">Register</button>
 
     </EditForm>

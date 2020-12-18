@@ -71,6 +71,7 @@ namespace BookStore_API.Controllers
             }
         }
         [HttpPost]
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> Create([FromBody] AuthorCreateDTO authorDTO)
         {
             try

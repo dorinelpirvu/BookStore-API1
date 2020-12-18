@@ -44,15 +44,21 @@ namespace BookStore_API.Controllers
                var password = userDTO.Password;
                 var user = new IdentityUser { Email = name, UserName = name };
                 var result = await _userManager.CreateAsync(user,password);
+
                 if (!result.Succeeded)
                 {
                     foreach (var error in result.Errors)
                     {
                         return InternalError($"{error.Description}");
                     }
-                    
+
                 }
-            return Ok(new { result.Succeeded });
+                var rol = userDTO.Rol;
+                var res = await _userManager.AddToRoleAsync(user, rol);
+                
+
+                    return Ok(new { result.Succeeded });
+                   
             }
             catch (Exception e)
             {
@@ -101,7 +107,7 @@ namespace BookStore_API.Controllers
                 , _config["Jwt:Issuer"],
                 claims,
                 null,
-                expires: DateTime.Now.AddHours(5),
+                expires: DateTime.Now.AddMinutes(1),
                 signingCredentials: credentials
             );
             return new JwtSecurityTokenHandler().WriteToken(token);

@@ -23,6 +23,7 @@ namespace BookStore_UI.Models
         [StringLength(50, ErrorMessage = "Dimensiunea trebuie sa fie intre {2} si {1}", MinimumLength = 3)]
         [Compare("Password",ErrorMessage ="Parola nu se potriveste")]
         public string ConfirmPassword { get; set; }
+        public string Rol { get; set; }
 
     }
     public class LoginModel

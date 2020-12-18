@@ -14,5 +14,6 @@ namespace BookStore_API.DTOs
         [Required]
         [StringLength(50, ErrorMessage = "Dimensiunea trebuie sa fie intre {2} si {1}",MinimumLength = 3)]
         public string Password { get; set; }
+        public string Rol { get; set; }
     }
 }
