@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>BookStore_UI</RootNamespace>
+    <UserSecretsId>0a2fabb4-0132-40bb-ba45-97368bc9af7a</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
